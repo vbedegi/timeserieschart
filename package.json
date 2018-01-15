@@ -1,0 +1,21 @@
+{
+  "name": "timeserieschart",
+  "version": "1.0.0",
+  "description": "FIXME: Write a one-line description of your library/project.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pondjs": "^0.8.8",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-timeseries-charts": "^0.12.8"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
