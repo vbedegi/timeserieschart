@@ -17,7 +17,7 @@
 
 (def data {:name    "traffic"
            :columns ["time" "in" "out"]
-           :points  [[1400425947000 52 41]
+           :points  [[1400425947000 22 41]
                      [1400425948000 18 45]
                      [1400425949000 26 49]
                      [1400425950000 93 81]]})
@@ -38,7 +38,7 @@
      [YAxis {:id "axis1" :min 0 :max 100}]
      [Charts
       [LineChart {:axis    "axis1"
-                  :columns ["in"]
+                  :columns ["in" "out"]
                   :series  series1}]]]]])
 
 (defn- update-counter [model msg]
